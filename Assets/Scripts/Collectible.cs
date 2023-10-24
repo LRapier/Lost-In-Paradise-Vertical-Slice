@@ -15,7 +15,8 @@ public class Collectible : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        Debug.Log(collision.gameObject.GetComponent<BoxCollider2D>().sharedMaterial.name);
+        if (collision.gameObject.CompareTag("Player") && collision.gameObject.GetComponent<BoxCollider2D>().sharedMaterial.name == "Feet")
         {
             if (collectibleType == "Key")
                 inventory.CollectItem(image);

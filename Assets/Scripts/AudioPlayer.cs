@@ -10,7 +10,7 @@ public class AudioPlayer : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (SceneManager.GetActiveScene().buildIndex == 4)
             Destroy(this);
