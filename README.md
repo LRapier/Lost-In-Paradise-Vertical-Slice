@@ -3,4 +3,12 @@
 Play: https://lrapier.github.io/Lost-In-Paradise-Vertical-Slice/
 
 Changelog:
-V0.5: Added custom sprites for Player, keys, and the door on the first level. Fixed player movement to work with new sprite. More inventory fixes
+V0.6: Added background images and music
+
+ 
+
+Credits for music:
+
+Ambience: https://www.youtube.com/watch?v=wo5bU7Nq0Wg
+
+Ending: https://www.youtube.com/watch?v=o53p69JVVBI
