@@ -5,6 +5,7 @@ Play: https://lrapier.github.io/Lost-In-Paradise-Vertical-Slice/
 Changelog:
 V0.6: Added background images and music
 
+ 
 
 Credits for music:
 
