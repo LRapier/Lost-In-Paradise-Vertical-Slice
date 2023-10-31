@@ -13,6 +13,6 @@ public class AudioPlayer : MonoBehaviour
     void Update()
     {
         if (SceneManager.GetActiveScene().buildIndex == 4)
-            Destroy(this);
+            Destroy(this.gameObject);
     }
 }
