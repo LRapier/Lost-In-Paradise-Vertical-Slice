@@ -7,6 +7,7 @@ public class Collectible : MonoBehaviour
     public string collectibleType;
     public Inventory inventory;
     public GameObject image;
+    bool collected = false;
 
     void Start()
     {
@@ -15,9 +16,12 @@ public class Collectible : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.GetComponent<BoxCollider2D>().sharedMaterial.name);
+        if (collected)
+            return;
         if (collision.gameObject.CompareTag("Player") && collision.gameObject.GetComponent<BoxCollider2D>().sharedMaterial.name == "Feet")
         {
+            if (!collected)
+                collected = true;
             if (collectibleType == "Key")
                 inventory.CollectItem(image);
             else if (collectibleType == "Secret")
