@@ -3,8 +3,7 @@
 Play: https://lrapier.github.io/Lost-In-Paradise-Vertical-Slice/
 
 Changelog:
-V0.7: Adjusted backgrounds for visibility, added volume controls and a pause screen
-
+V0.8: Fixed inconsistent jumping, fixed sometimes collecting items twice
  
 
 Credits for music:
